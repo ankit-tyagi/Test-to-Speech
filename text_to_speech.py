@@ -3,7 +3,7 @@ from gtts import gTTS
 import os
 
 myText1 = "text to speech conversion using python and gTTS"
-fh = open("sample.text","r")
+fh = open("sample.txt","r",encoding="utf8")
 myText = fh.read().replace("\n"," ")
 
 language = 'en'
